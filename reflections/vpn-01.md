@@ -47,7 +47,7 @@ When I run OpenVPN, my computer creates a "Magic Door" that tunnels directly int
 
 ### Connection Proof
 
-<img width="390" height="25" alt="Initialization Sequence Completed" src="https://github.com/user-attachments/assets/6a047ddc-5c35-47ec-b2fa-da43bfb5dc51" />
+![result](images/initialization-sequence-completed.png)
 
 * The log entry above confirms a successful OpenVPN handshake. At this point, my machine is officially part of the TryHackMe internal network, enabling me to proceed with the security modules.*
 
@@ -55,7 +55,7 @@ When I run OpenVPN, my computer creates a "Magic Door" that tunnels directly int
 
 ### Routing Analysis (Traceroute)
 
-![traceroute](https://github.com/user-attachments/assets/a50d9156-5652-491c-9f44-de7320fcd15d)
+![result](images/traceroute.jpeg)
 
 * If I run `traceroute 10.10.10.10`, the second hop is no longer my home router, but the VPN gateway. This proves that the encapsulation is working and my data is safely "teleporting" to the lab.
 
