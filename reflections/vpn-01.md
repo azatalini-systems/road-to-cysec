@@ -49,7 +49,7 @@ When I run OpenVPN, my computer creates a "Magic Door" that tunnels directly int
 
 <img width="390" height="25" alt="Initialization Sequence Completed" src="https://github.com/user-attachments/assets/6a047ddc-5c35-47ec-b2fa-da43bfb5dc51" />
 
-*The log entry above confirms a successful OpenVPN handshake. At this point, my machine is officially part of the TryHackMe internal network, enabling me to proceed with the security modules.*
+* The log entry above confirms a successful OpenVPN handshake. At this point, my machine is officially part of the TryHackMe internal network, enabling me to proceed with the security modules.*
 
 ---
 
